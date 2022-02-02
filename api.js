@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000
 
-schoollist = [{"School Name":"Bhola Nath Nagar-SBV (Babu Ram)","School ID":1001001}]
+schoollist = [{"School.Name":"Bhola Nath Nagar-SBV (Babu Ram)","School.id":1001001}]
 
 app.get('/', async(req, res) => {
     res.send(schoollist)
