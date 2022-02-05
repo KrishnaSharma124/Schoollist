@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
     next();
 });
 app.get('/', async(req, res) => {
-    res.send.json(schoollist)
+    res.send(schoollist)
     try {
 
     } catch (error) {
